@@ -3,8 +3,8 @@ package com.example.Book_My_Show_Application.Entities;
 
 
 import com.example.Book_My_Show_Application.Enums.ShowType;
-import jakarta.persistence.*;
-import jdk.jfr.Timestamp;
+import javax.persistence.*;
+
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
@@ -12,6 +12,8 @@ import lombok.NoArgsConstructor;
 import org.hibernate.annotations.CreationTimestamp;
 import org.hibernate.annotations.UpdateTimestamp;
 
+import javax.persistence.Entity;
+import javax.persistence.Table;
 import java.time.LocalDate;
 import java.time.LocalTime;
 import java.util.ArrayList;

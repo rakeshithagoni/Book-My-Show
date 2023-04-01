@@ -2,7 +2,7 @@
 package com.example.Book_My_Show_Application.Entities;
 
 
-import jakarta.persistence.*;
+import javax.persistence.*;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -38,8 +38,9 @@ public class TicketEntity {
 
     private String bookedSeats;
 
-    @JoinColumn
+
     @ManyToOne
+    @JoinColumn
     private UserEntity userEntity;
 
 

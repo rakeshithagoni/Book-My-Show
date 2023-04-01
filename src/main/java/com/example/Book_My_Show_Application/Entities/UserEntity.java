@@ -3,11 +3,9 @@ package com.example.Book_My_Show_Application.Entities;
 
 
 
-import jakarta.persistence.*;
+import javax.persistence.*;
 
-import jakarta.persistence.Id;
 import lombok.*;
-import org.springframework.web.bind.annotation.GetMapping;
 
 import java.util.ArrayList;
 import java.util.List;

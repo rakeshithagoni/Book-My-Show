@@ -3,7 +3,7 @@ package com.example.Book_My_Show_Application.EntryDtos;
 
 import com.example.Book_My_Show_Application.Enums.ShowType;
 import lombok.Data;
-import jakarta.persistence.*;
+import javax.persistence.*;
 
 import java.time.LocalDate;
 import java.time.LocalTime;

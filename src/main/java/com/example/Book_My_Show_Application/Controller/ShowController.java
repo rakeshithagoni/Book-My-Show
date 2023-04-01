@@ -1,7 +1,7 @@
 
 package com.example.Book_My_Show_Application.Controller;
 
-import jakarta.persistence.*;
+import javax.persistence.*;
 
 import com.example.Book_My_Show_Application.EntryDtos.ShowEntryDto;
 import com.example.Book_My_Show_Application.Services.ShowService;

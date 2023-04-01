@@ -1,8 +1,8 @@
 
 package com.example.Book_My_Show_Application.Controller;
 
-import com.example.Book_my_Show_Application_February.EntryDtos.UserEntryDto;
-import com.example.Book_my_Show_Application_February.Services.UserService;
+import com.example.Book_My_Show_Application.EntryDtos.UserEntryDto;
+import com.example.Book_My_Show_Application.Services.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
